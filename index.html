@@ -1,0 +1,19 @@
+---
+layout: page
+navbar-style: transparent
+header: true
+navigation:
+  - title: Portfolio
+  - title: Firmenprofil
+  - title: Kontakt
+---
+
+{% include overview-section.html
+  collection = site.portfolio
+  data = site.data.portfolio-section
+%}
+
+{% include overview-section.html
+  collection = site.firmenprofil
+  data = site.data.firmenprofil-section
+%}

@@ -1,0 +1,30 @@
+<div class="team-tile">
+  <div class="team-tile-image image-center"
+  style="background-image: url('{{include.element.img | prepend: site.imgurl | prepend: site.baseurl }}');">
+  </div>
+  <div class="team-tile-container">
+    <div class="team-tile-container-text">
+      <h4>{{ include.element.name }}</h4>
+      <p>{{ include.element.stelle }}</p>
+    </div>
+    <div class="team-tile-container-contact">
+
+      {% if include.element.email %}
+      <a href="mailto:{{include.element.email}}" type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" data-original-title="{{include.element.email}}">
+        <div class="team-tile-container-contact-glyph">
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </div>
+      </a>
+      {% endif %}
+
+      {% if include.element.telefon %}
+      <a href="tel:{{include.element.telefon}}" type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" data-original-title="{{include.element.telefon}}">
+        <div class="team-tile-container-contact-glyph">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+        </div>
+      </a>
+      {% endif %}
+
+    </div>
+  </div>
+</div>

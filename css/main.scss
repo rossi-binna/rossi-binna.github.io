@@ -1,0 +1,191 @@
+---
+---
+
+@charset "utf-8";
+@import
+  "variables",
+  "bootstrap",
+  "bootswatch";
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  padding-bottom: 2em;
+}
+
+.image-center {
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+// Navbar
+@media(min-width:767px) {
+    .navbar-transparent {
+        padding: 20px 0;
+        background-color:rgba(0, 0, 0, 0.0);
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: $gray-light;
+    }
+}
+
+.header-section {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.logo {
+  height: 1em;
+}
+
+.portfolio-hint {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-hint > a {
+    background-color:rgba(0, 0, 0, 0.0);
+}
+
+// Section Title
+.section-title {
+  text-align: center;
+  padding: 5em 0 3em 0;
+}
+
+.section-title > h1 {
+  margin: 0 0 0.5em 0;
+}
+
+.section.title > p {
+  margin: 0;
+}
+
+// Image Tile
+.image-tile {
+  background-color: $gray-light;
+  margin-bottom: 15px;
+}
+
+.image-tile-image {
+  padding-bottom: 40%;
+}
+
+.image-tile-title > h2 {
+  margin: 0.3em;
+}
+
+.image-tile-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+//Reference Tile
+.reference-tile {
+  margin-bottom: 15px;
+  background-color: $gray-light;
+}
+
+.reference-tile-image {
+  padding-bottom: 50%;
+}
+
+.reference-tile-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.reference-tile-title > h4 {
+  margin: 0.3em;
+}
+
+//Team Tile
+.team-tile {
+  background-color: $gray-light;
+  margin-bottom: 15px;
+}
+
+.team-tile-image {
+  padding-bottom: 50%;
+}
+
+.team-tile-container {
+  text-align: center;
+}
+
+.team-tile-container-contact-glyph > .fa {
+  font-size: 2em;
+}
+
+// Glyph Tile
+.glyph-tile {
+  margin-bottom: 15px;
+  text-align:center;
+}
+
+.glyph-tile > a {
+  color: $gray-lighter;
+}
+
+.glyph-tile-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glyph-tile-icon > .fa {
+  font-size: 6em;
+}
+
+
+.glyph-tile-title {
+  text-align: center;
+  text-decoration: none;
+}
+
+// Contact Section
+.contact-section {
+  background-color: $gray-light;
+}
+
+// Footer
+.footer-container {
+  display: flex;
+  flex-flow: row;
+}
+
+.footer-container > a {
+  margin: 0.5em 0em 0.5em 1em;
+  color: $gray-light;
+  &:hover {
+    color: $brand-primary;
+  }
+}

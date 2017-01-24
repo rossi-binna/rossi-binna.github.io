@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+  {% if page.navbar-style %}
+    {% if page.navbar-style == "transparent" %}
+      {% include navbar-transparent.html %}
+    {% else %}
+      {% include navbar-default.html  %}
+    {% endif %}
+  {% else %}
+    {% include navbar-default.html  %}
+  {% endif %}
+
+  {% if page.header %}
+    {% include header.html %}
+  {% endif %}
+
+  <main>
+  {{ content }}
+  {% include contact-section.html %}
+  </main>
+
+  {% include footer.html %}
+
+</body>

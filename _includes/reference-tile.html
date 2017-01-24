@@ -1,0 +1,19 @@
+<div class="reference-tile">
+
+  {% if include.element.display == "modal" %}
+  <a href="#{{include.element.name | downcase}}" data-toggle="modal">
+  {% else %}
+  <a href="{{include.element.url | prepend: site.baseurl}}">
+  {% endif %}
+
+    <div class="reference-tile-image image-center"
+    style="background-image: url('{{include.element.img | prepend: site.imgurl | prepend: site.baseurl }}');">
+    </div>
+
+  </a>
+
+  <div class="reference-tile-title">
+    <h4>{{ include.element.title }}</h4>
+  </div>
+
+</div>

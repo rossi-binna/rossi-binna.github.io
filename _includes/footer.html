@@ -1,0 +1,10 @@
+<footer>
+  <div class="footer-container">
+    <a href="#impressum" data-toggle="modal">Impressum</a>
+    <a href="{{ "/doc/AGB.pdf" | prepend: site.baseurl }}" target="_blank">AGB</a>
+  </div>
+  {% for element in site.footer %}
+    {% include modal.html element=element %}
+  {% endfor %}
+
+</footer>

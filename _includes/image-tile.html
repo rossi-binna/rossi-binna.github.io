@@ -1,0 +1,14 @@
+<div class="image-tile">
+  {% if include.element.display == "modal" %}
+  <a href="#{{include.element.name | tolower}}" data-toggle="modal">
+  {% else %}
+  <a href="{{include.element.url | prepend: site.baseurl}}">
+  {% endif %}
+    <div class="image-tile-image image-center"
+    style="background-image: url('{{include.element.img | prepend: site.imgurl | prepend: site.baseurl}}');">
+    </div>
+  </a>
+  <div class="image-tile-title">
+    <h2>{{include.element.title}}</h2>
+  </div>
+</div>

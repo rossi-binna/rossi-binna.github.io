@@ -1,0 +1,57 @@
+title: Team
+description: > #
+  Unsere 16 Mitarbeiter bringen geballtes Fachwissen
+  in die Produktion ein; Erfahrung, die in die Entwicklung
+  von Spezialanfertigungen und Wohnkonzepten fliesst.
+  Für zahlreiche namhafte Unternehmen und Persönlichkeiten
+  konnten so aussergewöhnliche Vorstellungen und Entwürfe
+  umgesetzt werden. Geschaffen werden neue, moderne
+  Umgebungen, und auch geschützte Objekte erstrahlen
+  in neuem Glanz.
+
+team:
+  - img: 01-team-markus-binna.jpg
+    name: Markus Binna
+    stelle: Geschäftsleitung
+    email: markus.binna@rossi-binna.ch
+    telefon: 044-874-30-23
+
+  - img: 02-team-erika-binna.jpg
+    name: Erika Binna
+    stelle: Geschäftsleitung
+    email: erika.binna@rossi-binna.ch
+    telefon: 044-874-30-25
+
+  - img: 03-team-martin-nieffer.png
+    name: Martin Nieffer
+    stelle: Projektleiter
+    email: martin.nieffer@rossi-binna.ch
+    telefon: 044-874-30-24
+
+  - img: 04-team-fabian-binna.jpg
+    name: Fabian Binna
+    stelle: IT-Systemtechnik
+    email: fabian.binna@rossi-binna.ch
+
+  - img: 05-team-albert-daehler.jpg
+    name: Albert Dähler
+    stelle: Lehrlingsausbildner
+    email: albert.daehler@rossi-binna.ch
+
+  - img: 06-team-sonja-reichen.jpg
+    name: Sonja Reichen
+    stelle: Buchhaltung
+    email: sonja.reichen@rossi-binna.ch
+    telefon: 044-874-30-24
+
+  - img: 07-team-desiree-spoerri.jpg
+    name: Desireé Spörri
+    stelle: Sekretariat
+    email: desiree.spoerri@rossi-binna.ch
+    telefon: 044-874-30-20
+
+  - img: 08-team-maik-binna.jpg
+    name: Maik Binna
+    stelle: Junior Projektleiter
+    email: maik.binna@rossi-binna.ch
+    telefon: 044-874-30-22

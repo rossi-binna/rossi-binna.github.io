@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="navbar-header page-scroll">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand page-scroll" href="{{ "/#page-top" | prepend: site.baseurl }}">
+      <img class="logo" src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}"></img>
+    </a>
+  </div>
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+      <li class="hidden">
+          <a class="page-scroll" href="#page-top"></a>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Portfolio <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a class="page-scroll" href="{{"/#portfolio" | prepend: site.baseurl}}">Übersicht</a></li>
+          <li class="divider"></li>
+          {% for topic in site.portfolio %}
+          <li><a href="{{ topic.url | prepend: site.baseurl }}">{{ topic.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+      <li><a class="page-scroll" href="{{"/#firmenprofil" | prepend: site.baseurl}}">Firmenprofil</a></li>
+      <li><a class="page-scroll" href="#kontakt">Kontakt</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="https://www.facebook.com/rossi.binna" target="_blank"><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i></a></li>
+      <li><a href="https://plus.google.com/113491577273169425007" target="_blank"><i class="fa fa-google-plus-official fa-lg" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.instagram.com/rossibinnaag/" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+<section id="{{ include.data.title | tolower }}" class="team-section">
+  <div class="container">
+
+    {% include section-title.html
+      title=include.data.title
+      description=include.data.description
+    %}
+
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+
+        <div class="row">
+
+            {% for element in include.data.team %}
+            <div class="col-sm-6 col-md-3">
+              {% include team-tile.html element=element%}
+            </div>
+            {% endfor %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

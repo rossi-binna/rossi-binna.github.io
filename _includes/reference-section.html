@@ -1,0 +1,24 @@
+<section id="reference" class="reference-section">
+  <div class="container">
+
+    {% include section-title.html
+      title="Referenzen"
+    %}
+
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+
+        <div class="row">
+          {% for element in include.collection %}
+          <div class="col-sm-4">
+            {% include reference-tile.html element=element %}
+            {% if element.display == "modal" %}
+              {% include modal.html element=element %}
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

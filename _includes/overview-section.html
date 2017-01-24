@@ -1,0 +1,27 @@
+<section id="{{ include.data.title | downcase }}" class="overview-section">
+  <div class="container">
+
+    {% include section-title.html
+      title=include.data.title
+      description=include.data.description
+    %}
+
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+
+        <div class="row">
+          {% for element in include.collection %}
+          <div class="col-sm-6">
+            {% include image-tile.html element=element %}
+            {% if element.display == "modal" %}
+              {% include modal.html element=element %}
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
