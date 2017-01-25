@@ -11,6 +11,6 @@ img: referenz-outdoor-privathaus-adlikon.jpg
 ![]({{page.img | prepend: site.imgurl | prepend: site.baseurl}})
 {:center}
 
-* Terassendielen RELLAZZO
+* Terrassendielen RELLAZZO
 * inkl. Abschlussprofil
 * Ausführung: Farbe Ametista 140 mm

@@ -11,7 +11,7 @@ img: referenz-innenarchitektur-flughafen-zuerich.png
 ![]({{page.img | prepend: site.imgurl | prepend: site.baseurl}})
 {:center}
 
-Möblierung Empfang und Auftrage aller Arbeitsgattungen aus dem Bereich Innenausbau.
+Möblierung Empfang und Aufträge aller Arbeitsgattungen aus dem Bereich Innenausbau.
 
 * Produktion, Lieferung und Montage der Bürotische
 * Montage Empfangsmöbel

@@ -11,6 +11,6 @@ img: referenz-outdoor-privathaus-wallisellen.jpg
 ![]({{page.img | prepend: site.imgurl | prepend: site.baseurl}})
 {:center}
 
-* Terassendielen RELLAZZO
+* Terrassendielen RELLAZZO
 * inkl. ALU-Abschlussprofil
-* Ausführung: FarbeTerra 140 mm  breit
+* Ausführung: FarbeTerra 140 mm breit
