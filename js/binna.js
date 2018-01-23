@@ -23,7 +23,3 @@ $(document).on('click','.navbar-collapse.in',function(e) {
         $(this).collapse('hide');
     }
 });
-
-$(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-});
