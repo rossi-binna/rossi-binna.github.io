@@ -8,10 +8,6 @@ url: ""
 collections:
   footer:
     output: true
-  outdoor:
-    output: true
-  outdoor-ref:
-    output: true
   innenarchitektur:
     output: true
   innenarchitektur-ref:
