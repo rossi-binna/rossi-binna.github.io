@@ -8,6 +8,10 @@ url: ""
 collections:
   footer:
     output: true
+  terrassenbelaege:
+    output: true
+  terrassenbelaege-ref:
+    output: true
   innenarchitektur:
     output: true
   innenarchitektur-ref:

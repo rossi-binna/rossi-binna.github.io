@@ -1,8 +1,8 @@
 ---
 display: modal
-title: Wände
+title: Wandverkleidungen
 name: waende
-img: title-waende.jpg
+img: title-waende-02.jpg
 ---
 
 > ### RAUMSCHMUCK MIT FUNKTION

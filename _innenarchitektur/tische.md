@@ -2,7 +2,7 @@
 display: modal
 title: Tische
 name: tische
-img: title-tische.jpg
+img: title-tische-02.jpg
 ---
 
 > ### ESSTISCHE, SALON-, BEISTELL- UND BÜROTISCHE

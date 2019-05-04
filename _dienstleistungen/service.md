@@ -1,7 +1,7 @@
 ---
 display: modal
-title: Technik
-name: technik
+title: Service
+name: service
 img: title-technik.jpg
 ---
 
