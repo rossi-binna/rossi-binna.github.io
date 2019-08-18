@@ -12,7 +12,7 @@ description: > #
 team:
   - img: 01-team-markus-binna.jpg
     name: Markus Binna
-    stelle: Geschäftsleitung
+    stelle: Geschäftsleitung & Lehrlingsausbildner
     email: markus.binna@rossi-binna.ch
     telefon: 044-874-30-23
 
@@ -27,12 +27,7 @@ team:
     stelle: Junior Projektleiter
     email: maik.binna@rossi-binna.ch
     telefon: 044-874-30-22
-
-  - img: 05-team-albert-daehler.jpg
-    name: Albert Dähler
-    stelle: Lehrlingsausbildner
-    email: albert.daehler@rossi-binna.ch
-
+    
   - img: 06-team-sonja-reichen.jpg
     name: Sonja Reichen
     stelle: Buchhaltung
