@@ -4,16 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="format-detection" content="telephone=no">
 
-  <title>{{ site.title | escape }}</title>
-
   <meta name="keywords" content="Schreinerei, Brandschutz, Innenarchitektur, Brandschutztür, Steigzonen, Bauleitung, Bäder, Küchen, Schränke, Tische, Türen, Wände, Gartenlounge, Terrassendielen">
-
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="stylesheet" href="{{ "/css/font-awesome.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
   <link rel="shortcut icon" type="image/png" href="{{ "/favicon.png" | prepend: site.baseurl }}" >
 
+  {% seo %}
 </head>

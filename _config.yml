@@ -5,6 +5,12 @@ baseurl: ""
 imgurl: /img/
 locationurl: https://www.google.ch/maps/place/Rossi+Binna+AG+Innenausbau/@47.4248587,8.5684597,17z/data=!3m1!4b1!4m5!3m4!1s0x479aa012a27572ab:0x40456895b3143f1b!8m2!3d47.4248551!4d8.5706484?hl=en
 url: ""
+locale: de_CH
+social:
+  name: Rossi Binna AG
+  links:
+    - https://www.facebook.com/rossi.binna
+    - https://www.instagram.com/rossibinnaag/
 
 collections:
   footer:
@@ -28,6 +34,8 @@ collections:
   firmenprofil:
     output: true
 
-
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 markdown: kramdown
